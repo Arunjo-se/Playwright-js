@@ -8,6 +8,7 @@
 
 3.  Runs the tests only on Desktop Chrome.
       -  npx playwright test --project=chromium
+      (eg: npx playwright test example.spec.js --project=chromium --headed)
 
 4.  Runs the tests in a specific file.
       - npx playwright test example
