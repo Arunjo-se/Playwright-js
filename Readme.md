@@ -23,3 +23,10 @@
 We suggest that you begin by typing:
 
     - npx playwright test
+
+order of files 
+
+1. basic.spec.js
+2. NewBrowser.spec.js
+3. title.spec.js
+4 

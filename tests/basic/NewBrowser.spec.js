@@ -1,6 +1,6 @@
 import { test } from '@playwright/test'
 
-test('New browser setup', async({browser}) => {
+test('New browser setup', async({browser}) => { // first testcase
 
   const context = await browser.newContext(); // Create a new browser context
   const page = await context.newPage(); // Open a new page in the context(tab1)
@@ -14,3 +14,13 @@ test('New browser setup', async({browser}) => {
 
     
 });
+
+// same as broswer setup. 
+test('Normal test ', async({page}) => { // second testcase
+    await page.goto("https://playwright.dev/"); // Navigate to the Playwright website
+});
+
+// test.only('Test with only', async({page}) => { // third testcase
+//     await page.goto("https://playwright.dev/"); // Navigate to the Playwright
+
+// when using test.only, only this test will run. 
