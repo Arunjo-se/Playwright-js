@@ -45,12 +45,16 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'],
+        //headless: false, // --Run tests in headful mode for better visibility(always in headed mode)
+      },
     },
 
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      use: { ...devices['Desktop Firefox'],
+        headless: false, // --Run tests in headful mode for better visibility(always in headed mode)
+      },
     },
 
     {
