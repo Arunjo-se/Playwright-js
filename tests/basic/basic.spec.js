@@ -7,3 +7,5 @@ test('has title', async ({ page }) => { // Test to check if the page has the cor
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/); // Check if the title contains "Playwright"
 });
+
+// testing 
