@@ -13,6 +13,8 @@ test("New browser setup", async ({ browser }) => {
 
   const page2 = await context.newPage();
   await page2.goto("https://playwright.dev/"); // Navigate to the Playwright website(tab2)
+
+    
 });
 
 // same as broswer setup.
