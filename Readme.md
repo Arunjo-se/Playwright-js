@@ -1,34 +1,72 @@
-## -Inside that directory, you can run several commands:
+## Playwright-js Project
 
-1.  Runs the end-to-end tests.
+This project contains end-to-end tests using [Playwright](https://playwright.dev/).
 
-    - npx playwright test
+### Available Commands
 
-2.  Starts the interactive UI mode.
+1. **Run all end-to-end tests:**
 
-    - npx playwright test --ui
+   ```
+   npx playwright test
+   ```
 
-3.  Runs the tests only on Desktop Chrome.
+2. **Start the interactive UI mode:**
 
-    - npx playwright test --project=chromium
-      (eg: npx playwright test example.spec.js --project=chromium --headed)
+   ```
+   npx playwright test --ui
+   ```
 
-4.  Runs the tests in a specific file.
+3. **Run tests only on Desktop Chrome:**
 
-    - npx playwright test example
+   ```
+   npx playwright test --project=chromium
+   ```
 
-5.  Runs the tests in debug mode.
-    - npx playwright test --debug
-6.  Auto generate tests with Codegen.
-    - npx playwright codegen
+   Example (headed mode):
 
-We suggest that you begin by typing:
+   ```
+   npx playwright test example.spec.js --project=chromium --headed
+   ```
 
-    - npx playwright test
+4. **Run tests in a specific file:**
 
-order of files
+   ```
+   npx playwright test <filename>
+   ```
 
-1. basic.spec.js
-2. NewBrowser.spec.js
-3. title.spec.js
-   4
+   Example:
+
+   ```
+   npx playwright test tests/basic/basic.spec.js
+   ```
+
+5. **Run tests in debug mode:**
+
+   ```
+   npx playwright test --debug
+   ```
+
+6. **Auto-generate tests with Codegen:**
+   ```
+   npx playwright codegen
+   ```
+
+### Suggested First Step
+
+Start by running all tests:
+
+```
+npx playwright test
+```
+
+---
+
+### Test Files Order
+
+1. `basic.spec.js`
+2. `NewBrowser.spec.js`
+3. `title.spec.js`
+
+---
+
+**Note:** Update the file paths as needed based on
