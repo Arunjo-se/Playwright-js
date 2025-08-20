@@ -9,3 +9,5 @@ test("@sanity has title", async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/); // Check if the title contains "Playwright"
 });
+
+// test
