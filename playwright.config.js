@@ -51,7 +51,7 @@ export default defineConfig({
         //headless: false, // --Run tests in headful mode for better visibility(always in headed mode)
       },
     },
-
+/*
     {
       name: "firefox",
       use: {
@@ -64,6 +64,8 @@ export default defineConfig({
       name: "webkit",
       use: { ...devices["Desktop Safari"] },
     },
+
+    */
 
     /* Test against mobile viewports. */
     // {
