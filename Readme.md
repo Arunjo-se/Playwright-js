@@ -61,6 +61,24 @@ npx playwright test
 
 ---
 
+### Allure Report
+
+```
+npm install --save-dev @playwright/test allure-playwright
+```
+
+setup the config file (report section)
+
+run test like(ex: npx playwright test basic.spec.js --project=chromium --headed )
+
+```
+allure generate allure-results --clean -o allure-report
+```
+
+```
+allure open allure-report
+```
+
 ### Test Files Order
 
 1. `basic.spec.js`
