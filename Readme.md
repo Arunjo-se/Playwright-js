@@ -2,6 +2,13 @@
 
 This project contains end-to-end tests using [Playwright](https://playwright.dev/).
 
+### Packages
+
+1. ** dotenv
+   ```
+   npm install dotenv     
+   ```
+
 ### Available Commands
 
 1. **Run all end-to-end tests:**
