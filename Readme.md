@@ -4,9 +4,9 @@ This project contains end-to-end tests using [Playwright](https://playwright.dev
 
 ### Packages
 
-1. ** dotenv
+1. \*\* dotenv
    ```
-   npm install dotenv     
+   npm install dotenv
    ```
 
 ### Available Commands
