@@ -35,7 +35,7 @@ class ExeclRead {
   }
 }
 
-// Reusable function to read data from any Excel file and sheet
+// Reusable function to read data from any Excel file and sheet.
 async function readExcelData(filePath, sheetName) {
   try {
     const excelSheet = new ExeclRead(filePath, sheetName);
