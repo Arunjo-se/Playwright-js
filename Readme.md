@@ -4,9 +4,13 @@ This project contains end-to-end tests using [Playwright](https://playwright.dev
 
 ### Packages
 
-1. ** dotenv
+1. **dotenv (for csv)
    ```
    npm install dotenv     
+   ```
+2. **ExcelJS(Excel sheet)
+   ```
+   npm i exceljs@0.2.19
    ```
 
 ### Available Commands

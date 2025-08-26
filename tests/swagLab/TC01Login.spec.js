@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const {login} =  require('../../pages/login').default;
+const {login} =  require('../../pages/login');
 const loginData = require('../../data/loginPasswordData.json')
 
 
