@@ -4,11 +4,8 @@ This project contains end-to-end tests using [Playwright](https://playwright.dev
 
 ### Packages
 
-<<<<<<< HEAD
-1. \*\* dotenv
-=======
-1. **dotenv (for csv)
->>>>>>> f9472b2a8c29e6a63fb1fcf68f539a95b9f8492e
+1. **dotenv
+
    ```
    npm install dotenv
    ```
@@ -102,4 +99,7 @@ allure open allure-report
 
 ---
 
-**Note:** Update the file paths as needed based on
+**Note:** Update the file paths as needed based 
+
+npm install @playwright/test --save-dev
+npx playwright install
