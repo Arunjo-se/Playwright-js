@@ -19,4 +19,4 @@ class login {
     await this.loginButton.click();
   }
 }
-module.exports = { login };
+export default {login};
