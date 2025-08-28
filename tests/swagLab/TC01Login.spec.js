@@ -1,7 +1,8 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const { login } = require("../../pages/login");
-const loginData = require("../../data/loginPasswordData.json");
+import login from "../../pages/login";
+
+import loginData from "../../data/loginPasswordData.json";
 
 test("@sanity has login", async ({ page }) => {
   const loginPage = new login(page);
