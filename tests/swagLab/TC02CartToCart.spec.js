@@ -19,9 +19,10 @@ test("@sanity has add to cart", async ({ page }) => {
   // keep clicking until no "ADD TO CART" buttons remain
   const addToCart = page.getByRole("button", { name: "ADD TO CART" }); // locator for all "ADD TO CART" buttons
 
-  let count = await addToCart.count(); // initial count
-  console.log("Total Add to Cart buttons: " + count); //
+  let totalItems  = await addToCart.count(); // initial count
+  console.log("Total Add to Cart buttons: " + totalItems ); //
 
+    let count = totalItems;
   while (count > 0) {
     await addToCart.nth(0).click();  // always click the first available
     count = await addToCart.count(); // re-check after DOM updates
@@ -31,7 +32,7 @@ test("@sanity has add to cart", async ({ page }) => {
 
   // assert cart badge reflects total
 
-  await expect(page.getByRole("link", { name: /\d+/ })).toHaveText(count.toString()); // or expected total
+  await expect(page.getByRole("link", { name: /\d+/ })).toHaveText(totalItems.toString()); // or expected total
 });
 
 
