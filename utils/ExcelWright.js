@@ -1,4 +1,4 @@
-const ExcelJS = require('exceljs');
+import ExcelJS from 'exceljs';
 
 class ExcelWrite {
   constructor(filePath, sheetName) {

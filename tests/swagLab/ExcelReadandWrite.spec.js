@@ -1,7 +1,8 @@
-const { test } = require('@playwright/test');
-const { readExcelData } = require('../../utils/ExcelRead');
-const { writeExcelData } = require('../../utils/ExcelWright');
-const path = require('path');
+import { test, expect } from '@playwright/test';
+import { readExcelData } from '../../utils/ExcelRead';
+import { writeExcelData } from '../../utils/ExcelWright';
+import path from 'path';
+
 
 test('Print one cell from Excel', async () => {
     const data = await readExcelData(path.resolve(__dirname, '../../data/excelTest.xlsx'), 'Sheet1');

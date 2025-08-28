@@ -12,6 +12,10 @@ This project contains end-to-end tests using [Playwright](https://playwright.dev
    ```
    npm i exceljs@0.2.19
    ```
+3. ** CSV
+   ```
+   npm install csv-parse
+   ```
 
 ### Available Commands
 

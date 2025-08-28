@@ -3,7 +3,7 @@ const baseURL = process.env.BaseURL;
 
 class login{
 
-    constructor(page){
+    constructor(page){ // constructor is a special method for creating and initializing an object created within a class.
 
         this.page = page; // 'this' keyword refers to the current instance of the class
         this.username = page.getByPlaceholder('Username');
