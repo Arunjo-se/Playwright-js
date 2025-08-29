@@ -4,9 +4,10 @@ This project contains end-to-end tests using [Playwright](https://playwright.dev
 
 ### Packages
 
-1. **dotenv (for csv)
+1. **dotenv
+
    ```
-   npm install dotenv     
+   npm install dotenv
    ```
 2. **ExcelJS(Excel sheet)
    ```
@@ -102,4 +103,7 @@ allure open allure-report
 
 ---
 
-**Note:** Update the file paths as needed based on
+**Note:** Update the file paths as needed based 
+
+npm install @playwright/test --save-dev
+npx playwright install
