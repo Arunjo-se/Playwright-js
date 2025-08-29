@@ -7,7 +7,7 @@ This project contains end-to-end tests using [Playwright](https://playwright.dev
 1. **dotenv
 
    ```
-   npm install dotenv     
+   npm install dotenv
    ```
 2. **ExcelJS(Excel sheet)
    ```
