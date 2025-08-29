@@ -1,2 +1,0 @@
-This will run before each test
-Swag Labs

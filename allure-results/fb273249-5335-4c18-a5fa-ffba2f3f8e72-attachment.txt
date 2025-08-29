@@ -1,9 +1,0 @@
-This will run before each test
-Swag Labs
-Total Add to Cart buttons: 6
-Remaining Add to Cart buttons: 5
-Remaining Add to Cart buttons: 4
-Remaining Add to Cart buttons: 3
-Remaining Add to Cart buttons: 2
-Remaining Add to Cart buttons: 1
-Remaining Add to Cart buttons: 0

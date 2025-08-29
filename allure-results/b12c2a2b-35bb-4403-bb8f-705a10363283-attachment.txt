@@ -1,3 +1,0 @@
-This will run before each test
-Swag Labs
-Total Add to Cart buttons: 6

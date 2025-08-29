@@ -1,5 +1,0 @@
-[
-  { col1: 'xyz', col2: 12345 },
-  { col1: 'deff', col2: 123124 },
-  { col1: 'Abcc', col2: '08u987' }
-]
