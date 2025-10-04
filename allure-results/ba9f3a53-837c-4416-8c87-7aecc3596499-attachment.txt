@@ -1,0 +1,24 @@
+This will run before each test
+ℹ️ [INFO]: Navigated to login page
+ℹ️ [INFO]: Page title verified
+Swag Labs
+Total Add to Cart buttons: 6
+ℹ️ [INFO]: Clicked an Add to Cart button, 5 remaining
+📸 Element screenshot saved: screenshots\bike-light-add_2025-09-23T16-34-41-310Z.png
+Remaining Add to Cart buttons: 5
+ℹ️ [INFO]: Clicked an Add to Cart button, 4 remaining
+📸 Element screenshot saved: screenshots\bike-light-add_2025-09-23T16-34-42-640Z.png
+Remaining Add to Cart buttons: 4
+ℹ️ [INFO]: Clicked an Add to Cart button, 3 remaining
+📸 Element screenshot saved: screenshots\bike-light-add_2025-09-23T16-34-42-773Z.png
+Remaining Add to Cart buttons: 3
+ℹ️ [INFO]: Clicked an Add to Cart button, 2 remaining
+📸 Element screenshot saved: screenshots\bike-light-add_2025-09-23T16-34-42-894Z.png
+Remaining Add to Cart buttons: 2
+ℹ️ [INFO]: Clicked an Add to Cart button, 1 remaining
+📸 Element screenshot saved: screenshots\bike-light-add_2025-09-23T16-34-43-005Z.png
+Remaining Add to Cart buttons: 1
+ℹ️ [INFO]: Clicked an Add to Cart button, 0 remaining
+📸 Element screenshot saved: screenshots\bike-light-add_2025-09-23T16-34-43-125Z.png
+Remaining Add to Cart buttons: 0
+📸 Screenshot saved: screenshots\homepage_2025-09-23T16-34-43-194Z.png
