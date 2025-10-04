@@ -1,19 +1,20 @@
-## Playwright-js Project 
+## Playwright-js Project (playwright-Study-Metrials)
 
 This project contains end-to-end tests using [Playwright](https://playwright.dev/).
 
 ### Packages
 
-1. **dotenv
+1. \*\*dotenv
 
    ```
-   npm install dotenv     
+   npm install dotenv
    ```
-2. **ExcelJS(Excel sheet)
+
+2. \*\*ExcelJS(Excel sheet)
    ```
    npm i exceljs@0.2.19
    ```
-3. ** CSV
+3. \*\* CSV
    ```
    npm install csv-parse
    ```
@@ -103,7 +104,7 @@ allure open allure-report
 
 ---
 
-**Note:** Update the file paths as needed based 
+**Note:** Update the file paths as needed based
 
 npm install @playwright/test --save-dev
 npx playwright install
