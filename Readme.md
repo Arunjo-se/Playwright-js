@@ -1,4 +1,4 @@
-## Playwright-js Project
+## Playwright-js Project 
 
 This project contains end-to-end tests using [Playwright](https://playwright.dev/).
 

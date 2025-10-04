@@ -1,7 +1,7 @@
 import { test } from "@playwright/test";
 import RandomDataUtils from "../../utils/randomDataUtils";
 
-test.skip("Generate Random Data", async () => {
+test("Generate Random Data", async () => {
   const randomString = RandomDataUtils.randomString(10);
   console.log("Random String:", randomString);
 
