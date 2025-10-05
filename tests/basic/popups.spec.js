@@ -38,4 +38,13 @@ test("to handle alert and confirm popups", async ({ page }) => {
     //dialog.accept();
   });
   await page.getByRole("button", { name: "Confirm" }).click();
+
+  page.on("dialog", (dialog) => { // prompt()
+    // Handle prompt popup
+    console.log(dialog.type());
+    console.log(dialog.message());
+    dialog.accept("8157831453"); // input text in prompt popup
+    //dialog.dismiss();
+  });
+  await page.getByRole("button", { name: "Prompt" }).click();
 });
