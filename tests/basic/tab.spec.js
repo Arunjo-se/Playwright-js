@@ -51,3 +51,26 @@ test("2nd method of Tab Handling", async ({ browser }) => {
   await newTab.waitForTimeout(3000);
   await newTab.close();
 });
+test.only("3rd method of Tab Handling. 2 or more tabs", async ({ page }) => {
+  // how handle multiple tabs
+  await page.goto(
+    "https://www.hyrtutorials.com/p/window-handles-practice.html"
+  );
+  console.log(await page.title());
+
+  //open new tab1
+
+  const [newTab1] = await Promise.all([
+    page.waitForEvent("popup"),
+    page.locator("#newTabBtn").click(),
+  ]);
+  console.log(await newTab1.title());
+  await newTab1.waitForLoadState();
+
+  const [newTab2] = await Promise.all([
+    page.waitForEvent("popup"),
+    page.locator("#newTabBtn").click(),
+  ]);
+  console.log(await newTab2.title());
+  await newTab2.waitForLoadState();
+});
