@@ -34,7 +34,7 @@ class RandomDataUtils {
   static randomEmail(length = 6) {
     return `${this.randomString(length).toLowerCase()}${this.randomNumberString(
       2
-    )}@example.com`;
+    )}@yopmail.com`;
   }
 
   static randomUsername(length = 8) {

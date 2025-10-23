@@ -1,0 +1,4 @@
+alert
+Hello , share this practice page and share your knowledge
+confirm
+Hello , Are you sure you want to confirm?
