@@ -10,7 +10,7 @@ test("iframe handling", async ({ page }) => {
 
   await page.waitForTimeout(3000);
 
-  const frameHandle = await page.frameLocator("#courses-iframe");
+  const frameHandle = page.frameLocator("#courses-iframe");
   await frameHandle.locator("//a[text()='Login']").click();
 
   await page.waitForTimeout(3000);
